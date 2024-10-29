@@ -226,7 +226,7 @@ const Footer = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1" />
+            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#EE782F" />
             <mask
               id="mask0_94:899"
               style={{ maskType: "alpha" }}
@@ -241,7 +241,7 @@ const Footer = () => {
                 cx="49.5"
                 cy="49.5"
                 r="49.5"
-                fill="#4A6CF7"
+                fill="#EE782F"
               />
             </mask>
             <g mask="url(#mask0_94:899)">
@@ -250,7 +250,7 @@ const Footer = () => {
                 cx="49.5"
                 cy="49.5"
                 r="49.5"
-                fill="url(#paint0_radial_94:899)"
+                fill="EE782F"
               />
               <g opacity="0.8" filter="url(#filter0_f_94:899)">
                 <circle cx="53.8676" cy="26.2061" r="20.3824" fill="white" />
@@ -307,7 +307,7 @@ const Footer = () => {
               width="66.6675"
               height="66.6675"
               transform="rotate(-22.9007 -41 26.9426)"
-              fill="url(#paint0_linear_94:889)"
+              fill="#EE782F"
             />
             <rect
               x="-41"

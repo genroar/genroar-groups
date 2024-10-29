@@ -1,6 +1,7 @@
 import AboutBanner from "@/components/About/AboutBanner";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import Hero from "@/components/banner";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 const AboutPage = () => {
   return (
     <>
-      <AboutBanner />
+      <Hero />
       <AboutSectionOne />
       <AboutSectionTwo />
     </>

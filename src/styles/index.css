@@ -31,3 +31,17 @@
     @apply opacity-100;
   }
 }
+
+
+
+/* explore heading */
+
+.explore::after {
+  content: ' ';
+  margin: 0 auto;
+  display: block;
+  width: 80px;
+  margin-top: 10px;
+  height: 3px;
+  background-color: #004AAD;
+}

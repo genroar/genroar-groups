@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import AcademyBanner from "../../components/Academy/Banner";
+import AboutAcad from "@/components/AboutAcad";
 
 export const metadata: Metadata = {
   title: " GENROAR Group | GENROAR Academy ",
@@ -11,6 +12,7 @@ const Academy = () => {
   return (
     <>
       <AcademyBanner />
+      <AboutAcad />
     </>
   );
 };

@@ -1,3 +1,4 @@
+import HomeIt from "@/components/HomeIt";
 import ItServeicesBanner from "@/components/itservice/Banner";
 import { Metadata } from "next";
 
@@ -10,6 +11,7 @@ const ItServeices = () => {
   return (
     <>
       <ItServeicesBanner />
+      <HomeIt />
     </>
   );
 };

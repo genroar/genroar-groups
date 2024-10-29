@@ -1,3 +1,4 @@
+import Hero from "@/components/banner";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 const ContactPage = () => {
   return (
     <>
+      <Hero />
       <Contact />
     </>
   );
