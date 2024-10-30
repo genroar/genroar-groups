@@ -1,4 +1,6 @@
+import Image from "next/image"
 import Link from "next/link"
+// genroar-com-195085.hostingersite.com old website
 
 const ClothingBanner = () => {
   return (
@@ -14,10 +16,10 @@ const ClothingBanner = () => {
             Unleashing Style with Quality and Comfort
             </h1>
             <p className="max-w-[600px] pb-[30px]  " >GENROAR Clothing offers a unique collection of stylish apparel crafted from premium materials. Our designs blend modern trends with comfort, ensuring you look and feel great in every outfit, whether for casual wear or special occasions.</p>
-            <Link href='http://clothing.genroar.com/' className="px-[30px] py-[15px] rounded-[10px] hover:bg-[#32539b] bg-[#ee782f] text-white duration-[0.3s] text-[17px] " >Visit Site</Link>
+            <button className="px-[30px] py-[15px] rounded-[10px] hover:bg-[#32539b] bg-[#ee782f] text-white duration-[0.3s] text-[17px] " >Comming soon</button>
           </div>
           <div className="banenr-rght w-[40%] ">
-            <img className="w-[100%]" src="/images/clothing.png" alt="" />
+            <Image width={400} height={400} className="w-[100%]" src="/images/clothing.png" alt="" />
           </div>
         </div>
       </div>

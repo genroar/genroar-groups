@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
+import { MdEmail } from "react-icons/md";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -150,7 +150,9 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+              <div className="flex items-center gap-[15px] justify-end pr-16 lg:pr-0">
+              <MdEmail className=" text-[23px] " />
+              <Link href='mailto:genroar7@gmail.com' >genroar7@gmail.com</Link>
               </div>
             </div>
           </div>

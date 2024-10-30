@@ -2,6 +2,7 @@ import Breadcrumb from '@/components/Common/Breadcrumb'
 import React from 'react'
 import Link from 'next/link'
 import { FaExternalLinkAlt } from "react-icons/fa";
+import Image from 'next/image';
 
 const ItServeicesBanner = () => {
   return (
@@ -20,7 +21,7 @@ const ItServeicesBanner = () => {
             <Link href='https://it.genroar.com/' className="px-[30px] py-[15px] mt-[20px] rounded-[10px] hover:bg-[#32539b] bg-[#ee782f] text-white duration-[0.3s] text-[17px] " >Visit Site</Link>
           </div>
           <div className="banenr-rght w-[40%] ">
-            <img className="w-[100%]" src="/images/it.png" alt="" />
+            <Image width={400} height={400} className="w-[100%]" src="/images/it.png" alt="" />
           </div>
         </div>
       </div>
