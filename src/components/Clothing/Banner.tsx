@@ -11,7 +11,7 @@ const ClothingBanner = () => {
     <div className="container relative z-20"> {/* Higher z-index ensures it stays above the overlay */}
       <div className=" flex flex-wrap">
         <div className="w-full flex justify-between items-center px-4">
-          <div className=" max-w-[800px] text-left w-[70%] ">
+          <div className=" max-w-[800px] text-left w-[70%] .. ">
             <h1 className="mb-5 text-xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
             Unleashing Style with Quality and Comfort
             </h1>
